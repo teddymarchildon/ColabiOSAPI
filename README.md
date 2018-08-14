@@ -22,7 +22,7 @@ pod 'ColabiOSAPI'
 
 ## Author
 
-tmarchildon, tmm61@duke.edu
+Lucy Zhang and Teddy Marchildon, tmm61@duke.edu
 
 ## License
 
