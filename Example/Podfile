@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ColabiOSAPI_Example' do
+  pod 'ColabiOSAPI', :path => '../'
+
+  target 'ColabiOSAPI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
