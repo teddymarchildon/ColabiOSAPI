@@ -1,0 +1,16 @@
+PODS:
+  - ColabiOSAPI (0.1.0)
+
+DEPENDENCIES:
+  - ColabiOSAPI (from `../`)
+
+EXTERNAL SOURCES:
+  ColabiOSAPI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ColabiOSAPI: 5c6a4773bef67cf60c8ed7a629b8794a942dbeed
+
+PODFILE CHECKSUM: 084ed44be42eaee973fa95683bc26e6168986649
+
+COCOAPODS: 1.5.0

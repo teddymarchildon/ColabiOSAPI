@@ -1,0 +1,6 @@
+framework module ColabiOSAPI {
+  umbrella header "ColabiOSAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
