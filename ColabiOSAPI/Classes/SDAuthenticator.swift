@@ -19,9 +19,17 @@ public class SDAuthenticator: NSObject {
         let endpoint = "authorize.php?response_type=code&client_id=\(clientID)&scope=\(scope)&redirect_uri=\(redirectURI)"
         
         requester.makeHTTPRequest(method: "GET", endpoint: endpoint, headers: nil, body: nil, error: { (message) in
-            os_log("%@: Error: %@", self.description, message)
+            if #available(iOS 10.0, *) {
+                os_log("%@: Error: %@", self.description, message)
+            } else {
+                print("%@: Error: %@", self.description, message)
+            }
         }, completion: { (response) in
-            os_log("%@: Response: %@", self.description, response as! [String:Any])
+            if #available(iOS 10.0, *) {
+                os_log("%@: Response: %@", self.description, response as! [String:Any])
+            } else {
+                print("%@: Response: %@", self.description, response as! [String:Any])
+            }
             completion(response as! [String:Any])
         })
     }
