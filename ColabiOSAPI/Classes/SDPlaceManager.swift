@@ -10,7 +10,7 @@ import UIKit
 
 class SDPlaceManager: NSObject {
     
-    static let shared = SDPlaceManager()
+    public static let shared = SDPlaceManager()
     
     public func getPlaceCategories(accessToken:String, error: @escaping (String) -> Void, completion:@escaping ([[String:Any]]) -> Void){
         SDRequester.streamer.makeHTTPRequest(method: "GET", endpoint: "places/categories?access_token=\(accessToken)", headers: nil, body: nil, error: {(message) in

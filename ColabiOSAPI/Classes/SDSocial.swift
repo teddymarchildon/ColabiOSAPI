@@ -11,8 +11,6 @@ import os.log
 
 public class SDSocial: NSObject {
     
-    //let requestor = SDRequester(baseURL: SDConstants.URL.streamer)
-    
     public static let shared = SDSocial()
     
     public struct mediaType{

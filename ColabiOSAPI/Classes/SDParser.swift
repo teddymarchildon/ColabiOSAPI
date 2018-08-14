@@ -10,8 +10,6 @@ import UIKit
 
 public class SDParser: NSObject {
     
-   
-    
     public class func textInString(filterTerm:String, text:NSString) -> Bool{
         let range = text.range(of: filterTerm, options: NSString.CompareOptions.caseInsensitive)
         return (range.location != NSNotFound)

@@ -28,7 +28,7 @@ Anybody in the Duke Community can access these APIs when building iOS apps! Just
   s.source           = { :git => 'https://github.com/tmarchildon/ColabiOSAPI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ColabiOSAPI/Classes/**/*'
   

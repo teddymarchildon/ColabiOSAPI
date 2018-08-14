@@ -13,10 +13,6 @@ public struct SDConstants {
         static let colab = "https://api.colab.duke.edu/"
     }
     
-    public struct Values {
-        public static let testToken = "bd778fb524e4c197bfbfe4e56843bd90"
-    }
-    
     public struct CurriculumField{
         public static let subject = "SUBJECT"
         public static let career = "ACAD_CAREER"

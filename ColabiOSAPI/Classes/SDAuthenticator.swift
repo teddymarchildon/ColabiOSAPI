@@ -13,7 +13,7 @@ public class SDAuthenticator: NSObject {
     
     let requester = SDRequester(baseURL: SDConstants.URL.oauth)
     
-    static let shared = SDAuthenticator()
+    public static let shared = SDAuthenticator()
     
     public func authenticate(clientID:String, redirectURI:String, scope:String, completion:@escaping ([String:Any]) -> Void){
         let endpoint = "authorize.php?response_type=code&client_id=\(clientID)&scope=\(scope)&redirect_uri=\(redirectURI)"

@@ -13,6 +13,18 @@
 		714A2191F3E4EDAEC1DFF00BDE6BD4BF /* Pods-ColabiOSAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1D66791FF042382DD3B5EEA9AE889E /* Pods-ColabiOSAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8739F5D183E7CD47E62416B06E4F2A10 /* Pods-ColabiOSAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FCCF34B433AD98DA21ACEE2FB266B4 /* Pods-ColabiOSAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91B7C9460AADC288BEDE85306F3C7840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B1C3F7FF212383F9007DF047 /* SDParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F7F1212383F9007DF047 /* SDParser.swift */; };
+		B1C3F800212383F9007DF047 /* SDSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F7F2212383F9007DF047 /* SDSocial.swift */; };
+		B1C3F801212383F9007DF047 /* SwiftyDuke.h in Headers */ = {isa = PBXBuildFile; fileRef = B1C3F7F3212383F9007DF047 /* SwiftyDuke.h */; };
+		B1C3F802212383F9007DF047 /* SDCurriculum.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F7F5212383F9007DF047 /* SDCurriculum.swift */; };
+		B1C3F803212383F9007DF047 /* SDRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F7F6212383F9007DF047 /* SDRequester.swift */; };
+		B1C3F804212383F9007DF047 /* SDIdentityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F7F7212383F9007DF047 /* SDIdentityManager.swift */; };
+		B1C3F805212383F9007DF047 /* SDPlaceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F7F8212383F9007DF047 /* SDPlaceManager.swift */; };
+		B1C3F806212383F9007DF047 /* SDIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F7FA212383F9007DF047 /* SDIdentity.swift */; };
+		B1C3F807212383F9007DF047 /* SDCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F7FB212383F9007DF047 /* SDCourse.swift */; };
+		B1C3F808212383F9007DF047 /* SDPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F7FC212383F9007DF047 /* SDPlace.swift */; };
+		B1C3F809212383F9007DF047 /* SDAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F7FD212383F9007DF047 /* SDAuthenticator.swift */; };
+		B1C3F80A212383F9007DF047 /* SDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F7FE212383F9007DF047 /* SDConstants.swift */; };
 		CD5209ACA0AF3FCA1B7A3216C36DC586 /* Pods-ColabiOSAPI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB0CBE2D41A0E47F973EB8298FA9EBC /* Pods-ColabiOSAPI_Example-dummy.m */; };
 		DB96F958C20353959ADE9C599B8F84EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		E3B9D6552E5C4A406129F1B0AB23D3F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -59,6 +71,19 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9537CDBF30B750C836350516B02FBE18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC3DF9A48F7137963BE9424F2A3845F7 /* Pods-ColabiOSAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColabiOSAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1C3F7F1212383F9007DF047 /* SDParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SDParser.swift; path = ColabiOSAPI/Classes/SDParser.swift; sourceTree = "<group>"; };
+		B1C3F7F2212383F9007DF047 /* SDSocial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SDSocial.swift; path = ColabiOSAPI/Classes/SDSocial.swift; sourceTree = "<group>"; };
+		B1C3F7F3212383F9007DF047 /* SwiftyDuke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftyDuke.h; path = ColabiOSAPI/Classes/SwiftyDuke.h; sourceTree = "<group>"; };
+		B1C3F7F4212383F9007DF047 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ColabiOSAPI/Classes/Info.plist; sourceTree = "<group>"; };
+		B1C3F7F5212383F9007DF047 /* SDCurriculum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SDCurriculum.swift; path = ColabiOSAPI/Classes/SDCurriculum.swift; sourceTree = "<group>"; };
+		B1C3F7F6212383F9007DF047 /* SDRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SDRequester.swift; path = ColabiOSAPI/Classes/SDRequester.swift; sourceTree = "<group>"; };
+		B1C3F7F7212383F9007DF047 /* SDIdentityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SDIdentityManager.swift; path = ColabiOSAPI/Classes/SDIdentityManager.swift; sourceTree = "<group>"; };
+		B1C3F7F8212383F9007DF047 /* SDPlaceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SDPlaceManager.swift; path = ColabiOSAPI/Classes/SDPlaceManager.swift; sourceTree = "<group>"; };
+		B1C3F7FA212383F9007DF047 /* SDIdentity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDIdentity.swift; sourceTree = "<group>"; };
+		B1C3F7FB212383F9007DF047 /* SDCourse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDCourse.swift; sourceTree = "<group>"; };
+		B1C3F7FC212383F9007DF047 /* SDPlace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDPlace.swift; sourceTree = "<group>"; };
+		B1C3F7FD212383F9007DF047 /* SDAuthenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SDAuthenticator.swift; path = ColabiOSAPI/Classes/SDAuthenticator.swift; sourceTree = "<group>"; };
+		B1C3F7FE212383F9007DF047 /* SDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SDConstants.swift; path = ColabiOSAPI/Classes/SDConstants.swift; sourceTree = "<group>"; };
 		B52A6D18A57C9112DF5ED49C5A873C26 /* Pods-ColabiOSAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColabiOSAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B5734E573577EBAF03F63FE938E28924 /* Pods_ColabiOSAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColabiOSAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44C86D8E133F8A4C79DC5FB1A32C4E0 /* ColabiOSAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColabiOSAPI-dummy.m"; sourceTree = "<group>"; };
@@ -132,6 +157,17 @@
 		7FD9E928AF6DBA58B07D04A5D5E34917 /* ColabiOSAPI */ = {
 			isa = PBXGroup;
 			children = (
+				B1C3F7F4212383F9007DF047 /* Info.plist */,
+				B1C3F7F9212383F9007DF047 /* Models */,
+				B1C3F7FD212383F9007DF047 /* SDAuthenticator.swift */,
+				B1C3F7FE212383F9007DF047 /* SDConstants.swift */,
+				B1C3F7F5212383F9007DF047 /* SDCurriculum.swift */,
+				B1C3F7F7212383F9007DF047 /* SDIdentityManager.swift */,
+				B1C3F7F1212383F9007DF047 /* SDParser.swift */,
+				B1C3F7F8212383F9007DF047 /* SDPlaceManager.swift */,
+				B1C3F7F6212383F9007DF047 /* SDRequester.swift */,
+				B1C3F7F2212383F9007DF047 /* SDSocial.swift */,
+				B1C3F7F3212383F9007DF047 /* SwiftyDuke.h */,
 				D7FBB2C406FEAA1D7B544773E05AEC5F /* Pod */,
 				D5DDD8DF0D87ACC7D7DFF7636C6C4F32 /* Support Files */,
 			);
@@ -164,6 +200,17 @@
 				4AD0EFA98EEF0D638C8C072DA103DBB9 /* Pods-ColabiOSAPI_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B1C3F7F9212383F9007DF047 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1C3F7FA212383F9007DF047 /* SDIdentity.swift */,
+				B1C3F7FB212383F9007DF047 /* SDCourse.swift */,
+				B1C3F7FC212383F9007DF047 /* SDPlace.swift */,
+			);
+			name = Models;
+			path = ColabiOSAPI/Classes/Models;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -240,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56A538730306390C686DB4A05DA2F3C3 /* ColabiOSAPI-umbrella.h in Headers */,
+				B1C3F801212383F9007DF047 /* SwiftyDuke.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +363,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					6FEDD8C1B6E36495735CCA8CD287C402 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -341,6 +394,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A9CBA40A527C91307529CE7D0D4FA4 /* ColabiOSAPI-dummy.m in Sources */,
+				B1C3F805212383F9007DF047 /* SDPlaceManager.swift in Sources */,
+				B1C3F803212383F9007DF047 /* SDRequester.swift in Sources */,
+				B1C3F7FF212383F9007DF047 /* SDParser.swift in Sources */,
+				B1C3F806212383F9007DF047 /* SDIdentity.swift in Sources */,
+				B1C3F800212383F9007DF047 /* SDSocial.swift in Sources */,
+				B1C3F804212383F9007DF047 /* SDIdentityManager.swift in Sources */,
+				B1C3F809212383F9007DF047 /* SDAuthenticator.swift in Sources */,
+				B1C3F80A212383F9007DF047 /* SDConstants.swift in Sources */,
+				B1C3F802212383F9007DF047 /* SDCurriculum.swift in Sources */,
+				B1C3F808212383F9007DF047 /* SDPlace.swift in Sources */,
+				B1C3F807212383F9007DF047 /* SDCourse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +446,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D9356735C1908040AE5FE52BDC6E9FC /* ColabiOSAPI.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -449,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D9356735C1908040AE5FE52BDC6E9FC /* ColabiOSAPI.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
