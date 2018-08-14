@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		0B45D1CDA40B42AE81B6B40B /* Pods_ColabiOSAPI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F7D27F8097167A0154B1B5 /* Pods_ColabiOSAPI_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B1C3F81721238653007DF047 /* LongTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F80B21238652007DF047 /* LongTextTableViewCell.swift */; };
+		B1C3F81821238653007DF047 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F80C21238652007DF047 /* CourseTableViewCell.swift */; };
+		B1C3F81921238653007DF047 /* OutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F80D21238653007DF047 /* OutlineTableViewCell.swift */; };
+		B1C3F81A21238653007DF047 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F80F21238653007DF047 /* CourseViewController.swift */; };
+		B1C3F81B21238653007DF047 /* CurriculumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F81021238653007DF047 /* CurriculumViewController.swift */; };
+		B1C3F81C21238653007DF047 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F81121238653007DF047 /* ViewControllerExtension.swift */; };
+		B1C3F81D21238653007DF047 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F81221238653007DF047 /* LocationViewController.swift */; };
+		B1C3F81E21238653007DF047 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F81321238653007DF047 /* PersonViewController.swift */; };
+		B1C3F81F21238653007DF047 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F81421238653007DF047 /* CategoryPickerViewController.swift */; };
+		B1C3F82021238653007DF047 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F81521238653007DF047 /* SocialViewController.swift */; };
+		B1C3F82121238653007DF047 /* IdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F81621238653007DF047 /* IdentityViewController.swift */; };
+		B1C3F82421238671007DF047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C3F82221238671007DF047 /* LaunchScreen.storyboard */; };
+		B1C3F82721238774007DF047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1C3F82521238774007DF047 /* Main.storyboard */; };
 		CFAFA9BF5DE73631A54F9D7C /* Pods_ColabiOSAPI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9215D22EE8561471C5F8C23A /* Pods_ColabiOSAPI_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,17 +41,27 @@
 		593700CAD790D06051872DA5 /* Pods-ColabiOSAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColabiOSAPI_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColabiOSAPI_Example/Pods-ColabiOSAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ColabiOSAPI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColabiOSAPI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ColabiOSAPI_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColabiOSAPI_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9215D22EE8561471C5F8C23A /* Pods_ColabiOSAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColabiOSAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9926C003399530F0D9313BDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B0C8A8571376394EE7BB8C84 /* Pods-ColabiOSAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColabiOSAPI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColabiOSAPI_Tests/Pods-ColabiOSAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1C3F80B21238652007DF047 /* LongTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongTextTableViewCell.swift; sourceTree = "<group>"; };
+		B1C3F80C21238652007DF047 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
+		B1C3F80D21238653007DF047 /* OutlineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineTableViewCell.swift; sourceTree = "<group>"; };
+		B1C3F80F21238653007DF047 /* CourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
+		B1C3F81021238653007DF047 /* CurriculumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurriculumViewController.swift; sourceTree = "<group>"; };
+		B1C3F81121238653007DF047 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		B1C3F81221238653007DF047 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		B1C3F81321238653007DF047 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		B1C3F81421238653007DF047 /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
+		B1C3F81521238653007DF047 /* SocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		B1C3F81621238653007DF047 /* IdentityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentityViewController.swift; sourceTree = "<group>"; };
+		B1C3F82321238671007DF047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1C3F82621238774007DF047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../DemoApp/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBD5F36E302A8A14AAF7D735 /* ColabiOSAPI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ColabiOSAPI.podspec; path = ../ColabiOSAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C48724D4D951F426031B8E62 /* Pods-ColabiOSAPI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColabiOSAPI_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColabiOSAPI_Example/Pods-ColabiOSAPI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C6F7D27F8097167A0154B1B5 /* Pods_ColabiOSAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColabiOSAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,11 +133,14 @@
 		607FACD21AFB9204008FA782 /* Example for ColabiOSAPI */ = {
 			isa = PBXGroup;
 			children = (
+				B1C3F82221238671007DF047 /* LaunchScreen.storyboard */,
+				B1C3F82521238774007DF047 /* Main.storyboard */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				B1C3F80C21238652007DF047 /* CourseTableViewCell.swift */,
+				B1C3F80B21238652007DF047 /* LongTextTableViewCell.swift */,
+				B1C3F80D21238653007DF047 /* OutlineTableViewCell.swift */,
+				B1C3F80E21238653007DF047 /* ViewControllers */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for ColabiOSAPI";
@@ -157,6 +180,21 @@
 				D706710FF64B0B59DE8B3373 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B1C3F80E21238653007DF047 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B1C3F80F21238653007DF047 /* CourseViewController.swift */,
+				B1C3F81021238653007DF047 /* CurriculumViewController.swift */,
+				B1C3F81121238653007DF047 /* ViewControllerExtension.swift */,
+				B1C3F81221238653007DF047 /* LocationViewController.swift */,
+				B1C3F81321238653007DF047 /* PersonViewController.swift */,
+				B1C3F81421238653007DF047 /* CategoryPickerViewController.swift */,
+				B1C3F81521238653007DF047 /* SocialViewController.swift */,
+				B1C3F81621238653007DF047 /* IdentityViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,8 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				B1C3F82721238774007DF047 /* Main.storyboard in Resources */,
+				B1C3F82421238671007DF047 /* LaunchScreen.storyboard in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,8 +360,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				B1C3F81921238653007DF047 /* OutlineTableViewCell.swift in Sources */,
+				B1C3F81721238653007DF047 /* LongTextTableViewCell.swift in Sources */,
+				B1C3F81C21238653007DF047 /* ViewControllerExtension.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				B1C3F81B21238653007DF047 /* CurriculumViewController.swift in Sources */,
+				B1C3F81A21238653007DF047 /* CourseViewController.swift in Sources */,
+				B1C3F81821238653007DF047 /* CourseTableViewCell.swift in Sources */,
+				B1C3F81E21238653007DF047 /* PersonViewController.swift in Sources */,
+				B1C3F82121238653007DF047 /* IdentityViewController.swift in Sources */,
+				B1C3F81F21238653007DF047 /* CategoryPickerViewController.swift in Sources */,
+				B1C3F81D21238653007DF047 /* LocationViewController.swift in Sources */,
+				B1C3F82021238653007DF047 /* SocialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,20 +394,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		B1C3F82221238671007DF047 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
+				B1C3F82321238671007DF047 /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
+		B1C3F82521238774007DF047 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				B1C3F82621238774007DF047 /* Base */,
 			);
-			name = LaunchScreen.xib;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -35,7 +35,11 @@ public class SDSocial: NSObject {
     public func filterSocial(accessToken:String, completion:@escaping ([[String:Any]]) -> Void, filterTerm:String?)
     {
         self.getSocial(accessToken: accessToken, error: { (message) in
-            os_log("%@ Respone %@", message, self.description)
+            if #available(iOS 10.0, *) {
+                os_log("%@ Respone %@", message, self.description)
+            } else {
+                // Fallback on earlier versions
+            }
         }, completion: { (social) in
             var filtered:[[String:Any]]! = social
             if (filterTerm != nil){
@@ -48,7 +52,11 @@ public class SDSocial: NSObject {
     
     public func socialBySource(accessToken:String, mediaType:String, completion:@escaping ([[String:Any]]) -> Void){
         self.getSocial(accessToken: accessToken, error: { (message) in
-            os_log("%@ Respone %@", message, self.description)
+            if #available(iOS 10.0, *) {
+                os_log("%@ Respone %@", message, self.description)
+            } else {
+                // Fallback on earlier versions
+            }
         }, completion: { (social) in
             let filtered = SDParser.filter(filterObject: social, filterTerm: mediaType, filterKeys: ["source"])
             completion(filtered)

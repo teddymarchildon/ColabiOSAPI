@@ -22,9 +22,13 @@ class SDRequester: NSObject {
     }
     
     func makeHTTPRequest(method:String, endpoint: String, boundary: String, body: Data, error:@escaping (String) -> Void, completion:@escaping (_ result:Any) -> Void) {
-        #if DEBUG
+        if #available(iOS 10.0, *) {
+            #if DEBUG
             os_log("%@: Make Request: %@, %@", self.description, method, self.baseURL + endpoint)
-        #endif
+            #endif
+        } else {
+            print("%@: Make Request: %@, %@", self.description, method, self.baseURL + endpoint)
+        }
         
         let request = NSMutableURLRequest(url: NSURL(string: self.baseURL + endpoint)! as URL)
         request.httpMethod = method
@@ -41,9 +45,13 @@ class SDRequester: NSObject {
     }
     
     func makeHTTPRequest(method:String, endpoint: String, headers:[String: String]?,body: [String: Any]?, error:@escaping (String) -> Void, completion:@escaping (_ result:Any) -> Void) {
-        #if DEBUG
+        if #available(iOS 10.0, *) {
+            #if DEBUG
             os_log("%@: Make Request: %@, %@", self.description, method, self.baseURL + endpoint)
-        #endif
+            #endif
+        } else {
+            // Fallback on earlier versions
+        }
         
         if let url = URL(string: self.baseURL + endpoint)
         {
@@ -73,7 +81,11 @@ class SDRequester: NSObject {
         }
         else
         {
-            os_log("%@: URL %@ is null", self.description, self.baseURL + endpoint)
+            if #available(iOS 10.0, *) {
+                os_log("%@: URL %@ is null", self.description, self.baseURL + endpoint)
+            } else {
+                // Fallback on earlier versions
+            }
         }
         
     }
@@ -81,7 +93,11 @@ class SDRequester: NSObject {
     private func executeHTTPRequest(request: URLRequest, completion:@escaping (_ result:Any) -> Void, errorHandler:@escaping (_ result:[String:Any]) -> Void =  { error in
         if let errorDescription = error["error"] as? String
         {
-            os_log("Error making http request: %@", errorDescription)
+            if #available(iOS 10.0, *) {
+                os_log("Error making http request: %@", errorDescription)
+            } else {
+                // Fallback on earlier versions
+            }
         }
         }) {
         let session = URLSession.shared
@@ -95,14 +111,22 @@ class SDRequester: NSObject {
                 }
                 catch
                 {
-                    os_log("%@: Error serializing json: %@, Trying as string.", self.description, error.localizedDescription)
+                    if #available(iOS 10.0, *) {
+                        os_log("%@: Error serializing json: %@, Trying as string.", self.description, error.localizedDescription)
+                    } else {
+                        // Fallback on earlier versions
+                    }
                     if let dataString = String(data:data!, encoding:.utf8)
                     {
                         errorHandler(["error":dataString])
                     }
                     else
                     {
-                        os_log("%@: Could not format data as string", self.description)
+                        if #available(iOS 10.0, *) {
+                            os_log("%@: Could not format data as string", self.description)
+                        } else {
+                            print("%@: Could not format data as string", self.description)
+                        }
                     }
                 }
                 //completion(data!)
@@ -110,9 +134,13 @@ class SDRequester: NSObject {
             else if (error != nil)
             {
                 errorHandler(["error":error.debugDescription])
-                #if DEBUG
+                if #available(iOS 10.0, *) {
+                    #if DEBUG
                     os_log("%@: Error: %@", self.description, error.debugDescription)
-                #endif
+                    #endif
+                } else {
+                    // Fallback on earlier versions
+                }
             }
         })
         task.resume()
