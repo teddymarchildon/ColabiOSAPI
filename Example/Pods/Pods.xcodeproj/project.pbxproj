@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		17A9CBA40A527C91307529CE7D0D4FA4 /* ColabiOSAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C44C86D8E133F8A4C79DC5FB1A32C4E0 /* ColabiOSAPI-dummy.m */; };
 		3C781C4990E221AD13C1B94F73C1730A /* Pods-ColabiOSAPI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C1C67DC1BEF93486543E94C46D0DB3 /* Pods-ColabiOSAPI_Tests-dummy.m */; };
-		4F3C0B8708AF6617F25C578B7205C58A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C78DDA90AB06F55A462A6B76DF35E3 /* ReplaceMe.swift */; };
 		56A538730306390C686DB4A05DA2F3C3 /* ColabiOSAPI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D205C4F7C3AEEDCA8E6BE56062D3C434 /* ColabiOSAPI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		714A2191F3E4EDAEC1DFF00BDE6BD4BF /* Pods-ColabiOSAPI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F1D66791FF042382DD3B5EEA9AE889E /* Pods-ColabiOSAPI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8739F5D183E7CD47E62416B06E4F2A10 /* Pods-ColabiOSAPI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17FCCF34B433AD98DA21ACEE2FB266B4 /* Pods-ColabiOSAPI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,8 +37,8 @@
 
 /* Begin PBXFileReference section */
 		09558FD1AFC4DCE1DCD7A9EC834D72F8 /* Pods-ColabiOSAPI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColabiOSAPI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0D2B8D2F25DEE6061412E48FD0B16B7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		147D66A623E1351734EC6B1E53307FB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0D2B8D2F25DEE6061412E48FD0B16B7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		147D66A623E1351734EC6B1E53307FB3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		17FCCF34B433AD98DA21ACEE2FB266B4 /* Pods-ColabiOSAPI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColabiOSAPI_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2198BE1AD4683567DEB1ECAA9A314A72 /* Pods-ColabiOSAPI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColabiOSAPI_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		29F65FD1BF1044836E098F332EF64C9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,22 +51,21 @@
 		540C530A62B11FD44DC59CE36DC77493 /* Pods-ColabiOSAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColabiOSAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6CB0CBE2D41A0E47F973EB8298FA9EBC /* Pods-ColabiOSAPI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColabiOSAPI_Example-dummy.m"; sourceTree = "<group>"; };
-		760EA9D6D9E5BD29FA46C75CD9E1BAFA /* Pods_ColabiOSAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColabiOSAPI_Example.framework; path = "Pods-ColabiOSAPI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		760EA9D6D9E5BD29FA46C75CD9E1BAFA /* Pods_ColabiOSAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColabiOSAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		761F4D22F6DDA088EEC3738A87A46D21 /* Pods-ColabiOSAPI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColabiOSAPI_Tests.modulemap"; sourceTree = "<group>"; };
 		879514FC9031559819A6165FDB42A815 /* Pods-ColabiOSAPI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColabiOSAPI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8C7C2DC8831A8277A194781DB2F476A6 /* ColabiOSAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ColabiOSAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C7C2DC8831A8277A194781DB2F476A6 /* ColabiOSAPI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ColabiOSAPI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8F1D66791FF042382DD3B5EEA9AE889E /* Pods-ColabiOSAPI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColabiOSAPI_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9537CDBF30B750C836350516B02FBE18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC3DF9A48F7137963BE9424F2A3845F7 /* Pods-ColabiOSAPI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColabiOSAPI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B52A6D18A57C9112DF5ED49C5A873C26 /* Pods-ColabiOSAPI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColabiOSAPI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B5734E573577EBAF03F63FE938E28924 /* Pods_ColabiOSAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColabiOSAPI_Tests.framework; path = "Pods-ColabiOSAPI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1C78DDA90AB06F55A462A6B76DF35E3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ColabiOSAPI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		B5734E573577EBAF03F63FE938E28924 /* Pods_ColabiOSAPI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColabiOSAPI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44C86D8E133F8A4C79DC5FB1A32C4E0 /* ColabiOSAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ColabiOSAPI-dummy.m"; sourceTree = "<group>"; };
 		D205C4F7C3AEEDCA8E6BE56062D3C434 /* ColabiOSAPI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColabiOSAPI-umbrella.h"; sourceTree = "<group>"; };
 		D8D7FCC1419F27B02CA130BBB29A55F2 /* ColabiOSAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ColabiOSAPI-prefix.pch"; sourceTree = "<group>"; };
 		E3C1C67DC1BEF93486543E94C46D0DB3 /* Pods-ColabiOSAPI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColabiOSAPI_Tests-dummy.m"; sourceTree = "<group>"; };
-		E3D9A468EAD32D14F5E8DCB58626E042 /* ColabiOSAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ColabiOSAPI.framework; path = ColabiOSAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D9A468EAD32D14F5E8DCB58626E042 /* ColabiOSAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColabiOSAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED6759D2BD5156D10E511575086298E5 /* Pods-ColabiOSAPI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColabiOSAPI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EF503D4275676861B7559780A4F613ED /* Pods-ColabiOSAPI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ColabiOSAPI_Example.modulemap"; sourceTree = "<group>"; };
 		F15916DA62E65604C057AB6C5A2BD571 /* Pods-ColabiOSAPI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColabiOSAPI_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 		7FD9E928AF6DBA58B07D04A5D5E34917 /* ColabiOSAPI */ = {
 			isa = PBXGroup;
 			children = (
-				C1C78DDA90AB06F55A462A6B76DF35E3 /* ReplaceMe.swift */,
 				D7FBB2C406FEAA1D7B544773E05AEC5F /* Pod */,
 				D5DDD8DF0D87ACC7D7DFF7636C6C4F32 /* Support Files */,
 			);
@@ -344,7 +341,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A9CBA40A527C91307529CE7D0D4FA4 /* ColabiOSAPI-dummy.m in Sources */,
-				4F3C0B8708AF6617F25C578B7205C58A /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
