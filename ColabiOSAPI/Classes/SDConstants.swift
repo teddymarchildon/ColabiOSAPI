@@ -14,7 +14,8 @@ public struct SDConstants {
     }
     
     public struct Values {
-        public static let testToken = "bd778fb524e4c197bfbfe4e56843bd90"
+        //TODO: register app according to README to get the token
+        public static let testToken = ""
     }
     
     public struct CurriculumField{
