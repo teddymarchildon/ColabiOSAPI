@@ -57,7 +57,7 @@ class CourseViewController: UIViewController {
     func getCourseInfo(){
         let alertController = self.presentLoadingIndicator()
         
-        SDCurriculum.shared.offeringDetailsForCourse(id: courseID, offerNumber: courseOfferNumber, accessToken: SDConstants.Values.testToken, error: { (message) in
+        SDCurriculum.shared.offeringDetailsForCourse(id: courseID, offerNumber: courseOfferNumber, accessToken: AccessToken.value, error: { (message) in
             DispatchQueue.main.async {
                 alertController.removeLoadingIndicator()
                 alertController.title = "Authentication error"

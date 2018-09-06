@@ -55,7 +55,7 @@ class IdentityViewController: UIViewController {
     
     func loadIdentities(query:String){
         let alertController = self.presentLoadingIndicator()
-        SDIdentityManager.shared.searchPeopleDirectory(queryTerm: query, accessToken: SDConstants.Values.testToken, error: { (message) in
+        SDIdentityManager.shared.searchPeopleDirectory(queryTerm: query, accessToken: AccessToken.value, error: { (message) in
             
             DispatchQueue.main.async {
                 alertController.removeLoadingIndicator()
@@ -107,7 +107,7 @@ extension IdentityViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let tmpFiltered = (searchActive) ? filtered : searchResults
         let netid = tmpFiltered[indexPath.row]["netid"] as! String
-        SDIdentityManager.shared.personForNetID(netID: netid, accessToken: SDConstants.Values.testToken, error: { (message) in
+        SDIdentityManager.shared.personForNetID(netID: netid, accessToken: AccessToken.value, error: { (message) in
             self.handleDataError(message: message)
         }, completion:  { (personInfo) in
             self.selectedIdentity = personInfo

@@ -11,6 +11,7 @@
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		B18FDB1921417ECF00AB1E50 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18FDB1821417ECF00AB1E50 /* AccessToken.swift */; };
 		B1C3F81721238653007DF047 /* LongTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F80B21238652007DF047 /* LongTextTableViewCell.swift */; };
 		B1C3F81821238653007DF047 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F80C21238652007DF047 /* CourseTableViewCell.swift */; };
 		B1C3F81921238653007DF047 /* OutlineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3F80D21238653007DF047 /* OutlineTableViewCell.swift */; };
@@ -49,6 +50,7 @@
 		9215D22EE8561471C5F8C23A /* Pods_ColabiOSAPI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColabiOSAPI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9926C003399530F0D9313BDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B0C8A8571376394EE7BB8C84 /* Pods-ColabiOSAPI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColabiOSAPI_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColabiOSAPI_Tests/Pods-ColabiOSAPI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B18FDB1821417ECF00AB1E50 /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
 		B1C3F80B21238652007DF047 /* LongTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongTextTableViewCell.swift; sourceTree = "<group>"; };
 		B1C3F80C21238652007DF047 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
 		B1C3F80D21238653007DF047 /* OutlineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutlineTableViewCell.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 			children = (
 				B1C3F82221238671007DF047 /* LaunchScreen.storyboard */,
 				B1C3F82521238774007DF047 /* Main.storyboard */,
+				B18FDB1821417ECF00AB1E50 /* AccessToken.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				B1C3F80C21238652007DF047 /* CourseTableViewCell.swift */,
 				B1C3F80B21238652007DF047 /* LongTextTableViewCell.swift */,
@@ -361,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1C3F81921238653007DF047 /* OutlineTableViewCell.swift in Sources */,
+				B18FDB1921417ECF00AB1E50 /* AccessToken.swift in Sources */,
 				B1C3F81721238653007DF047 /* LongTextTableViewCell.swift in Sources */,
 				B1C3F81C21238653007DF047 /* ViewControllerExtension.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,

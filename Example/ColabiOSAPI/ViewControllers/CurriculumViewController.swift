@@ -44,7 +44,7 @@ class CurriculumViewController: CategoryPickerViewController {
     
     
     func loadCurriculum(){
-        SDCurriculum.shared.getCoursesForSubject(subject: self.selectedField, accessToken: SDConstants.Values.testToken, error: self.handleDataError) { (classes) in
+        SDCurriculum.shared.getCoursesForSubject(subject: self.selectedField, accessToken: AccessToken.value, error: self.handleDataError) { (classes) in
             self.courses = classes
             DispatchQueue.main.async {
                 self.tableView.reloadData()
@@ -53,7 +53,7 @@ class CurriculumViewController: CategoryPickerViewController {
     }
     
     func loadCurriculumFields(){
-        SDCurriculum.shared.curriculumValues(field: SDConstants.CurriculumField.subject, accessToken: SDConstants.Values.testToken, error: {
+        SDCurriculum.shared.curriculumValues(field: SDConstants.CurriculumField.subject, accessToken: AccessToken.value, error: {
             (message) in
             self.handleDataError(message: message)
         }, completion: { (fields) in
@@ -129,7 +129,7 @@ extension CurriculumViewController: UITableViewDelegate, UITableViewDataSource{
 extension CurriculumViewController: CategoryPickerDelegate{
     func loadFields() {
         let alertController = self.presentLoadingIndicator()
-        SDCurriculum.shared.curriculumValues(field: SDConstants.CurriculumField.subject, accessToken: SDConstants.Values.testToken, error: {
+        SDCurriculum.shared.curriculumValues(field: SDConstants.CurriculumField.subject, accessToken: AccessToken.value, error: {
             (message) in
             
             DispatchQueue.main.async {
@@ -155,7 +155,7 @@ extension CurriculumViewController: CategoryPickerDelegate{
     
     func loadResponse() {
         let alertController = self.presentLoadingIndicator()
-        SDCurriculum.shared.getCoursesForSubject(subject: self.selectedField, accessToken: SDConstants.Values.testToken, error: {
+        SDCurriculum.shared.getCoursesForSubject(subject: self.selectedField, accessToken: AccessToken.value, error: {
             (message) in
             DispatchQueue.main.async {
                 alertController.removeLoadingIndicator()

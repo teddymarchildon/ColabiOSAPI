@@ -34,7 +34,7 @@ class SocialViewController: UITableViewController {
     
     private func getSocialInfo() {
         let alertController = self.presentLoadingIndicator()
-        SDSocial.shared.getSocial(accessToken: SDConstants.Values.testToken, error: { (message) in
+        SDSocial.shared.getSocial(accessToken: AccessToken.value, error: { (message) in
             alertController.removeLoadingIndicator()
             alertController.title = "Authentication error"
             alertController.message = message
