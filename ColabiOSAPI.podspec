@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 Anybody in the Duke Community can access these APIs when building iOS apps! Just register with the Colab to get an AccessToken, and you're all set. See the demo app for details.
                        DESC
 
-  s.homepage         = 'https://gitlab.oit.duke.edu/colab/SwiftyDukePod'
+  s.homepage         = 'https://github.com/tmarchildon/ColabiOSAPI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Lucy Zhang and Teddy Marchildon' => 'tmm61@duke.edu' }
-  s.source           = { :git => 'https://gitlab.oit.duke.edu/colab/SwiftyDukePod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tmarchildon/ColabiOSAPI.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
